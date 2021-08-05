@@ -13,6 +13,8 @@
 		192A5AD726B7E82500ECE165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192A5AD526B7E82500ECE165 /* Main.storyboard */; };
 		192A5AD926B7E82900ECE165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192A5AD826B7E82900ECE165 /* Assets.xcassets */; };
 		192A5ADC26B7E82900ECE165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192A5ADA26B7E82900ECE165 /* LaunchScreen.storyboard */; };
+		192A5AE426B7EA8900ECE165 /* RangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A5AE326B7EA8900ECE165 /* RangeViewController.swift */; };
+		192A5AE626B7F1AF00ECE165 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A5AE526B7F1AF00ECE165 /* TrackingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		192A5AD826B7E82900ECE165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192A5ADB26B7E82900ECE165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		192A5ADD26B7E82900ECE165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192A5AE326B7EA8900ECE165 /* RangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeViewController.swift; sourceTree = "<group>"; };
+		192A5AE526B7F1AF00ECE165 /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				192A5AD826B7E82900ECE165 /* Assets.xcassets */,
 				192A5ADA26B7E82900ECE165 /* LaunchScreen.storyboard */,
 				192A5ADD26B7E82900ECE165 /* Info.plist */,
+				192A5AE326B7EA8900ECE165 /* RangeViewController.swift */,
+				192A5AE526B7F1AF00ECE165 /* TrackingViewController.swift */,
 			);
 			path = Ibeacon2.0;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192A5AE626B7F1AF00ECE165 /* TrackingViewController.swift in Sources */,
+				192A5AE426B7EA8900ECE165 /* RangeViewController.swift in Sources */,
 				192A5AD426B7E82500ECE165 /* ViewController.swift in Sources */,
 				192A5AD026B7E82500ECE165 /* AppDelegate.swift in Sources */,
 				192A5AD226B7E82500ECE165 /* SceneDelegate.swift in Sources */,
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6LAXU3AVA;
 				INFOPLIST_FILE = Ibeacon2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6LAXU3AVA;
 				INFOPLIST_FILE = Ibeacon2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
